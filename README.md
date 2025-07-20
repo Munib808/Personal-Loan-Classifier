@@ -51,7 +51,7 @@ The notebook is structured into the following sections:
 
 - Data Preprocessing: Handles missing values, encodes categorical variables, and scales numerical features.
 
-- Model Training and Evaluation: Trains multiple machine learning models and evaluates their performance using metrics like accuracy and classification reports.
+- Model Training and Evaluation: Trains multiple machine learning models(e.g XGBClassifier,GradientBoostingClassifier,AdaBoostClassifier,ExtraTreesClassifier,RandomForestClassifier,DecisionTreeClassifier,KNeighborsClassifier,LogisticRegression with final Model Votting Classifier with base learners LogisticRegression KNeighborsClassifier RandomForestClassifier ExtraTreesClassifier GradientBoostingClassifier) and evaluates their performance using metrics like accuracy and classification reports.
 
 - Deploy Deployment: This repository includes an app.py file containing a Streamlit web application for interactive loan acceptance predictions. The app loads trained models and allows users to input features via a user-friendly interface to get real-time predictions.(Due large model size the Models Pickle file can't be uploaded)
 
@@ -61,25 +61,17 @@ The notebook is structured into the following sections:
 - Various machine learning models are trained, including Logistic Regression, K-Nearest Neighbors, Decision Trees, Random Forests, and Gradient Boosting.
 
 - Techniques like SMOTE and RandomUnderSampler are used to handle class imbalance.
-  
-- Final Estimator is Votting Classifier with Below Classifiers
-  -- LogisticRegression
-  -- KNeighborsClassifier
-  -- RandomForestClassifier
-  -- ExtraTreesClassifier
-  -- GradientBoostingClassifier
 
-- Dependencies
-To run this notebook, you need the following Python libraries:
+- Dependencies : To run this notebook, you need the following Python libraries:
 
-pandas
+*pandas*
 
-seaborn
+*seaborn*
 
-matplotlib
+*matplotlib*
 
-scikit-learn
+*scikit-learn*
 
-xgboost
+*xgboost*
 
-imbalanced-learn
+*imbalanced-learn*
