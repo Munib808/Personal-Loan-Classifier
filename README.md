@@ -61,6 +61,13 @@ The notebook is structured into the following sections:
 - Various machine learning models are trained, including Logistic Regression, K-Nearest Neighbors, Decision Trees, Random Forests, and Gradient Boosting.
 
 - Techniques like SMOTE and RandomUnderSampler are used to handle class imbalance.
+  
+- Final Estimator is Votting Classifier with Below Classifiers
+  -- LogisticRegression
+  -- KNeighborsClassifier
+  -- RandomForestClassifier
+  -- ExtraTreesClassifier
+  -- GradientBoostingClassifier
 
 - Dependencies
 To run this notebook, you need the following Python libraries:
