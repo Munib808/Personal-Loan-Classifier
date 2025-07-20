@@ -53,6 +53,8 @@ The notebook is structured into the following sections:
 
 - Model Training and Evaluation: Trains multiple machine learning models and evaluates their performance using metrics like accuracy and classification reports.
 
+- Deploy Deployment: This repository includes an app.py file containing a Streamlit web application for interactive loan acceptance predictions. The app loads trained models and allows users to input features via a user-friendly interface to get real-time predictions.(Due large model size the Models Pickle file can't be uploaded)
+
 ## Key Findings
 - The dataset is imbalanced, with most clients not subscribing to a personal loan.
 
