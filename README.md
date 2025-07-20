@@ -1,7 +1,7 @@
 # Personal-Loan-Classifier
 # Personal Loan Acceptance Classifier
 ## Overview
-This repository contains a Jupyter Notebook for a Personal Loan Acceptance Classifier. The project focuses on analyzing a dataset related to bank marketing campaigns to predict whether a client will subscribe to a personal loan. The dataset includes various features such as client demographics, financial status, and previous interactions with the bank.
+This repository contains a Jupyter Notebook for a Personal Loan Acceptance Classifier. The project focuses on analyzing a dataset related to bank marketing campaigns to predict whether a client will subscribe to a personal loan. The dataset includes various features such as client demographics, financial status, and previous interactions with the bank.The project also includes a simple **web-based application** that runs locally on your computer.
 
 ## Dataset
 The dataset used in this project is bank-full.csv, which contains information about bank clients and their responses to marketing campaigns. The dataset includes the following features:
