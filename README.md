@@ -14,11 +14,11 @@ The dataset used in this project is bank-full.csv, which contains information ab
 
 - education: Education level
 
-default: Has credit in default?
+- default: Has credit in default?
 
 - balance: Average yearly balance
 
-housing: Has housing loan?
+- housing: Has housing loan?
 
 - loan: Has personal loan?
 
